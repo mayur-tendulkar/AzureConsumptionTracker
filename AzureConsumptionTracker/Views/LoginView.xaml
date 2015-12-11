@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AzureConsumptionTracker.LoginView" Title="Login">
+	<StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" BackgroundColor="White">
+		<Label Text="Login with your Microsoft or Org. Account" FontSize="Small" />
+		<Button x:Name="LoginButton" Text="Login" HorizontalOptions="Center" VerticalOptions="Center" Clicked="LoginButtonOnClicked"/>
+	</StackLayout>
+</ContentPage>

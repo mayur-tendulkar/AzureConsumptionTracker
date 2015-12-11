@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AzureConsumptionTracker.DetailsView"
+xmlns:helper="clr-namespace:AzureConsumptionTracker.Helper;assembly=AzureConsumptionTracker" Title="Consumption Details">
+ <ContentPage.Resources>
+        <ResourceDictionary>
+            <helper:UnitConverter x:Key="UnitConverterHelper"/>
+            <helper:ProjectConverter x:Key="ProjectConverterHelper"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+	<StackLayout Padding="20">
+		<ListView x:Name="DetailsList" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" SeparatorVisibility="None" HasUnevenRows="true">
+	<ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                    	<Frame HasShadow="false" OutlineColor="Maroon" Padding="5">
+							<StackLayout Padding="5" Spacing="5" BackgroundColor="Silver">
+                        		<Label Text="{Binding Converter={StaticResource ProjectConverterHelper}}" FontSize="Small"/>
+	                     		<Label Text="{Binding Converter={StaticResource UnitConverterHelper}}" FontSize="Small"/>
+                        	</StackLayout>
+                        	</Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+	</ListView>
+	</StackLayout>
+</ContentPage>

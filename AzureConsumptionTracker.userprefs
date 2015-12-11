@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="iOS/AzureConsumptionTracker.iOS.csproj" RefactoringSettings.EnableRefactorings="True">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6s.9.0" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AzureConsumptionTracker/AzureConsumptionTracker.cs">
+    <Files>
+      <File FileName="AzureConsumptionTracker/Views/DetailsView.xaml" Line="18" Column="116" />
+      <File FileName="AzureConsumptionTracker/Helper/ValueConverters.cs" Line="28" Column="2" />
+      <File FileName="AzureConsumptionTracker/Views/DetailsView.xaml.cs" Line="35" Column="1" />
+      <File FileName="AzureConsumptionTracker/obj/Debug/AzureConsumptionTracker.Views.DetailsView.xaml.g.cs" Line="1" Column="1" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="Droid/MainActivity.cs" Line="12" Column="13" />
+      <File FileName="AzureConsumptionTracker/AzureConsumptionTracker.cs" Line="17" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

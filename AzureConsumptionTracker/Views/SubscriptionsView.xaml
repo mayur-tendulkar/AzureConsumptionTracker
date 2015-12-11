@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AzureConsumptionTracker.SubscriptionsView" Title="Subscriptions">
+	<StackLayout Padding="10">
+		<ListView x:Name="SubscriptionsList" HorizontalOptions="FillAndExpand" SeparatorVisibility="None" VerticalOptions="FillAndExpand" HasUnevenRows="True" >
+			<ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                    	<Frame HasShadow="true" OutlineColor="Maroon" Padding="5">
+                        <StackLayout Padding="5" Spacing="5">
+                        	<Label Text="{Binding DisplayName}" FontSize="Medium"/>
+                        	<Label Text="{Binding SubscriptionId}" FontSize="Small"/>
+                        </StackLayout>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+		</ListView>
+	</StackLayout>
+</ContentPage>
